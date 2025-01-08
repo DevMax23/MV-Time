@@ -12,7 +12,11 @@ Aangepast /time-commando om de tijd in het spel te wijzigen
 
 # Geef tijdscontrole aan verschillende groepen
 add_ace group.mod command.time allow
+
+
 add_ace group.admin command.time allow
+
+
 add_ace group.owner command.time allow
 
 
