@@ -1,4 +1,4 @@
-# MV-Time
+# MV-Time (ADMIN ONLY)
 Aangepast /time-commando om de tijd in het spel te wijzigen
 
 /time commando
@@ -9,5 +9,11 @@ Aangepast /time-commando om de tijd in het spel te wijzigen
 /time "nacht" -- Nacht op 00:00
 
 /time --:-- kan je een custom tijd mee zetten
+
+# Geef tijdscontrole aan verschillende groepen
+add_ace group.mod command.time allow
+add_ace group.admin command.time allow
+add_ace group.owner command.time allow
+
 
 
